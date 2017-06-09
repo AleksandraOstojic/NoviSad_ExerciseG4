@@ -30,6 +30,7 @@ public class BowlingGame {
 		if(frames.get(frames.size()-1).isSpare() || frames.get(frames.size()-1).isStrike())
 			{
 				bonus = new Frame(firstThrow, 0);
+				frames.add(bonus);
 			}
 			
 		}
