@@ -33,10 +33,13 @@ public class BowlingGame {
 			{	bonus = new Frame(frames.get(i+1).getFirstThrow(), frames.get(i+1).getSecondThrow());
 				frames.add(bonus);
 			}
-			//slucaj kada je postgnut spare, ili ako se radi o poslednjem frame-u, ostvaruje se pravo na jedno dodatno bacanje
-			else if(frames.get(i).isSpare() ||frames.get(frames.size()-1).isSpare() || frames.get(frames.size()-1).isStrike() )
+			else if(frames.get(i).isSpare() )
 			{
 				bonus = new Frame(frames.get(i+1).getFirstThrow(), 0);
+			}
+			else if(frames.get(frames.size()-1).isSpare() || frames.get(frames.size()-1).isStrike())
+			{
+				bonus = new Frame(firstThrow);
 			}
 			
 		}
