@@ -6,3 +6,15 @@ RefactoringAction 1497031089289 TestBowling.java RENAME test=>void test_ FIELD
 RefactoringAction 1497031093302 TestBowling.java RENAME test_=>void test_initializaton FIELD
 RefactoringAction 1497031096814 TestBowling.java RENAME test_initializaton=>void test_initializaton() METHOD
 EditAction 1497031135730 TestBowling.java 281 1 2 1
+UnitTestCaseAction 1497031146568 TestBowling.java OK
+UnitTestSessionAction 1497031146573 TestBowling.java OK
+RefactoringAction 1497031234133 TestBowling.java ADD void test FIELD
+RefactoringAction 1497031235147 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497031237161 TestBowling.java RENAME test_=>void test_invalid FIELD
+RefactoringAction 1497031238171 TestBowling.java RENAME test_invalid=>void test_invalid_ FIELD
+RefactoringAction 1497031241187 TestBowling.java RENAME test_invalid_=>void test_invalid_number FIELD
+RefactoringAction 1497031242704 TestBowling.java RENAME test_invalid_number=>void test_invalid_number_ FIELD
+RefactoringAction 1497031243716 TestBowling.java RENAME test_invalid_number_=>void test_invalid_number_o FIELD
+RefactoringAction 1497031246231 TestBowling.java RENAME test_invalid_number_o=>void test_invalid_number_of_pins FIELD
+RefactoringAction 1497031248244 TestBowling.java RENAME test_invalid_number_of_pins=>void test_invalid_number_of_pins() METHOD
+EditAction 1497031331869 TestBowling.java 437 2 3 1
