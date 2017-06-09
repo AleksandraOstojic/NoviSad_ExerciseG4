@@ -42,7 +42,7 @@ public class TestBowling {
 	@Test
 	public void test_score_method() throws BowlingException{
 		Frame frame = new Frame(2,3);
-		assertEquals("Neocekivan broj srusenih kegli.", 5, frame.score());
+		assertEquals(5, frame.score());
 		
 	}
 
