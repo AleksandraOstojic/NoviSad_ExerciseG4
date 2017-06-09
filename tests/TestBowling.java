@@ -55,5 +55,15 @@ public class TestBowling {
 		assertEquals(17, game.score());
 		
 	}
+	@Test
+	public void test_game_when_is_spare() throws BowlingException
+	{
+		Frame frame = new Frame(9,1);
+		BowlingGame game = new BowlingGame();
+		game.addFrame(frame);
+		game.addFrame(new Frame(3,4));
+		assertEquals(17, game.score());
+		
+	}
 
 }
