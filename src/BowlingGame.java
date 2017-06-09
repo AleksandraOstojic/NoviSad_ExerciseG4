@@ -35,6 +35,23 @@ public class BowlingGame {
 			
 		}
 	
+	public void addBonus()
+	{
+		for(int i=0; i<frames.size(); i++)
+		{
+			if(frames.get(i).isStrike())
+			{
+				bonus = new Frame(frames.get(i+1).getFirstThrow(),frames.get(i+1).getSecondThrow());
+				frames.add(bonus);
+			}
+			else if(frames.get(i).isSpare())
+			{
+				bonus = new Frame(frames.get(i+1).getFirstThrow(),0);
+				frames.add(bonus);
+			}
+		}
+	}
+	
 	
 	// Returns the game score
 	public int score() throws BowlingException{
