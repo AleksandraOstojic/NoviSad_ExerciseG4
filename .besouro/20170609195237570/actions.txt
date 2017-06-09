@@ -49,3 +49,15 @@ UnitTestSessionAction 1497031797630 TestBowling.java FAIL
 EditAction 1497031846531 Frame.java 893 6 6 0
 EditAction 1497031885456 Frame.java 889 6 6 0
 EditAction 1497031896831 TestBowling.java 1042 6 10 4
+UnitTestCaseAction 1497031909120 TestBowling.java OK
+UnitTestSessionAction 1497031909122 TestBowling.java OK
+RefactoringAction 1497031941846 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1497031945863 TestBowling.java RENAME test_=>void test_game_ FIELD
+RefactoringAction 1497031963885 TestBowling.java RENAME test_game_=>void test_game_when_ FIELD
+RefactoringAction 1497031964898 TestBowling.java RENAME test_game_when_=>void test_game_when_is FIELD
+RefactoringAction 1497031966911 TestBowling.java RENAME test_game_when_is=>void test_g FIELD
+RefactoringAction 1497031967921 TestBowling.java RENAME test_g=>void test_game FIELD
+RefactoringAction 1497031970432 TestBowling.java RENAME test_game=>void test_game_ FIELD
+RefactoringAction 1497031976946 TestBowling.java RENAME test_game_=>void test_game_when_is_str FIELD
+RefactoringAction 1497031978455 TestBowling.java RENAME test_game_when_is_str=>void test_game_when_is_strike() METHOD
+EditAction 1497032131347 TestBowling.java 1295 7 15 5

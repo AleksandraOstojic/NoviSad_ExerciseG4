@@ -43,6 +43,16 @@ public class TestBowling {
 	public void test_score_method() throws BowlingException{
 		Frame frame = new Frame(2,3);
 		assertEquals(5, frame.score());
+	}
+	
+	@Test
+	public void test_game_when_is_strike() throws BowlingException
+	{
+		Frame frame = new Frame(10,0);
+		BowlingGame game = new BowlingGame();
+		game.addFrame(frame);
+		game.addFrame(new Frame(3,4));
+		assertEquals(17, game.score());
 		
 	}
 
