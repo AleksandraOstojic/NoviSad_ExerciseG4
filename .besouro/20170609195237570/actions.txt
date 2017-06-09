@@ -1,0 +1,8 @@
+FileOpenedAction 1497030758052 BowlingGame.java 708 4 1 0
+FileOpenedAction 1497031071590 TestBowling.java 165 1 1 0
+RefactoringAction 1497031077609 TestBowling.java REMOVE test() METHOD
+RefactoringAction 1497031087778 TestBowling.java ADD void test FIELD
+RefactoringAction 1497031089289 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497031093302 TestBowling.java RENAME test_=>void test_initializaton FIELD
+RefactoringAction 1497031096814 TestBowling.java RENAME test_initializaton=>void test_initializaton() METHOD
+EditAction 1497031135730 TestBowling.java 281 1 2 1
