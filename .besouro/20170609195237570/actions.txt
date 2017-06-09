@@ -67,3 +67,6 @@ RefactoringAction 1497032150889 TestBowling.java ADD void test_game_when_is_stri
 RefactoringAction 1497032154410 TestBowling.java RENAME test_game_when_is_strike()/2=>void test_game_when_is_s() METHOD
 RefactoringAction 1497032155422 TestBowling.java RENAME test_game_when_is_s()=>void test_game_when_is_spare() METHOD
 EditAction 1497032173356 TestBowling.java 1547 8 20 6
+UnitTestCaseAction 1497032186092 TestBowling.java FAIL
+UnitTestSessionAction 1497032186094 TestBowling.java FAIL
+EditAction 1497032422947 BowlingGame.java 858 4 4 0
