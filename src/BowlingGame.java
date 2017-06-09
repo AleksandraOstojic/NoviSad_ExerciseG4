@@ -14,7 +14,7 @@ public class BowlingGame {
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame) throws BowlingException{
-		if(frames.size() <=10)
+		if(frames.size() <10)
 		{
 			frames.add(frame);
 		}

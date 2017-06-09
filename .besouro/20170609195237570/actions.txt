@@ -98,3 +98,6 @@ RefactoringAction 1497033113065 TestBowling.java RENAME test_invalid_number_f=>v
 RefactoringAction 1497033116584 TestBowling.java RENAME test_invalid_number_of=>void test_invalid_number_of_ FIELD
 RefactoringAction 1497033120603 TestBowling.java RENAME test_invalid_number_of_=>void test_invalid_number_of_frames() METHOD
 EditAction 1497033247905 TestBowling.java 2057 9 34 6
+UnitTestCaseAction 1497033257231 TestBowling.java FAIL
+UnitTestSessionAction 1497033257233 TestBowling.java FAIL
+EditAction 1497033269817 BowlingGame.java 1058 4 5 0
