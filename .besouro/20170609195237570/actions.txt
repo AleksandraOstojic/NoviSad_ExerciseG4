@@ -18,3 +18,8 @@ RefactoringAction 1497031243716 TestBowling.java RENAME test_invalid_number_=>vo
 RefactoringAction 1497031246231 TestBowling.java RENAME test_invalid_number_o=>void test_invalid_number_of_pins FIELD
 RefactoringAction 1497031248244 TestBowling.java RENAME test_invalid_number_of_pins=>void test_invalid_number_of_pins() METHOD
 EditAction 1497031331869 TestBowling.java 437 2 3 1
+UnitTestCaseAction 1497031343067 TestBowling.java FAIL
+UnitTestSessionAction 1497031343069 TestBowling.java FAIL
+RefactoringAction 1497031349475 TestBowling.java ADD void test_invalid_number_of_pins()/2 METHOD
+RefactoringAction 1497031360011 TestBowling.java RENAME test_invalid_number_of_pins()/2=>void test_invalid_number_of_pins2() METHOD
+EditAction 1497031445051 Frame.java 815 6 6 0
