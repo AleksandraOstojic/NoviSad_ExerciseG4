@@ -119,3 +119,6 @@ RefactoringAction 1497033351846 TestBowling.java RENAME test_when_is_strike_on()
 RefactoringAction 1497033352855 TestBowling.java RENAME test_when_is_strike_on_last()=>void test_when_is_strike_on_last_() METHOD
 RefactoringAction 1497033354366 TestBowling.java RENAME test_when_is_strike_on_last_()=>void test_when_is_strike_on_last_frame() METHOD
 EditAction 1497033562780 BowlingGame.java 1179 4 5 0
+UnitTestCaseAction 1497033577893 TestBowling.java OK
+UnitTestSessionAction 1497033577895 TestBowling.java OK
+EditAction 1497033773116 BowlingGame.java 1386 4 5 0

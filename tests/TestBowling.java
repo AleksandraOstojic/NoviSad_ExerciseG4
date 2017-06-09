@@ -68,7 +68,7 @@ public class TestBowling {
 		
 	}
 	@Test(expected = BowlingException.class)
-	public void test_invalid_number_of_frames()  throws BowlingException
+	public void test_invalid_number_of_frames() throws BowlingException
 	{
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(10,0));
@@ -82,6 +82,23 @@ public class TestBowling {
 		game.addFrame(new Frame(1,9));
 		game.addFrame(new Frame(6,4));
 		game.addFrame(new Frame(1,1));
+
+	}
+	
+	@Test
+	public void test_when_is_strike_on_last_frame() throws BowlingException
+	{
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(3,0));
+		game.addFrame(new Frame(6,0));
+		game.addFrame(new Frame(3,1));
+		game.addFrame(new Frame(5,0));
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(1,4));
+		game.addFrame(new Frame(2,3));
+		game.addFrame(new Frame(1,9));
+		game.addFrame(new Frame(10,0));
 		
 	}
 
