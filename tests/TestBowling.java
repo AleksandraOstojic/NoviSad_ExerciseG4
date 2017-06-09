@@ -120,5 +120,19 @@ public class TestBowling {
 		assertEquals(71,game.score());
 		
 	}
-
+	@Test
+	public void test_game() throws BowlingException
+	{
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(3,0));
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(3,1));
+		game.addFrame(new Frame(5,5));
+		game.addFrame(new Frame(4,1));
+		
+		assertEquals(42,game.score());
+		
+	}
+	
 }

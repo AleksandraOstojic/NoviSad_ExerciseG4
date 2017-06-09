@@ -167,3 +167,8 @@ RefactoringAction 1497034820492 BowlingGame.java ADD void add FIELD
 RefactoringAction 1497034823500 BowlingGame.java RENAME add=>void addBonus() METHOD
 EditAction 1497034935384 BowlingGame.java 1430 5 6 0
 EditAction 1497034951888 TestBowling.java 3123 11 60 8
+UnitTestCaseAction 1497034968106 TestBowling.java OK
+UnitTestSessionAction 1497034968108 TestBowling.java OK
+RefactoringAction 1497034976888 TestBowling.java ADD void test_when_is_spare_on_last_frame()/2 METHOD
+RefactoringAction 1497034981900 TestBowling.java RENAME test_when_is_spare_on_last_frame()/2=>void test_game() METHOD
+EditAction 1497035071339 TestBowling.java 3479 12 68 9
