@@ -29,8 +29,14 @@ public class BowlingGame {
 		for(int i=0; i<frames.size(); i++)
 		{
 			if(frames.get(i).isStrike())
-				bonus = new Frame(frames.get(i+1).getFirstThrow(), frames.get(i+1).getSecondThrow());
+			{	bonus = new Frame(frames.get(i+1).getFirstThrow(), frames.get(i+1).getSecondThrow());
 				frames.add(bonus);
+			}
+			else if(frames.get(i).isSpare())
+			{
+				bonus = new Frame(frames.get(i+1).getFirstThrow(), 0);
+			}
+			
 		}
 	}
 	

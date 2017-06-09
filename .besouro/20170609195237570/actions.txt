@@ -101,3 +101,21 @@ EditAction 1497033247905 TestBowling.java 2057 9 34 6
 UnitTestCaseAction 1497033257231 TestBowling.java FAIL
 UnitTestSessionAction 1497033257233 TestBowling.java FAIL
 EditAction 1497033269817 BowlingGame.java 1058 4 5 0
+UnitTestCaseAction 1497033278725 TestBowling.java OK
+UnitTestSessionAction 1497033278727 TestBowling.java OK
+RefactoringAction 1497033302665 TestBowling.java ADD void test_game FIELD
+RefactoringAction 1497033305674 TestBowling.java RENAME test_game=>void test_game() METHOD
+RefactoringAction 1497033330725 TestBowling.java RENAME test_game()=>void test_() METHOD
+RefactoringAction 1497033331739 TestBowling.java RENAME test_()=>void test_whe() METHOD
+RefactoringAction 1497033334249 TestBowling.java RENAME test_whe()=>void test_when_() METHOD
+RefactoringAction 1497033335760 TestBowling.java RENAME test_when_()=>void test_when_is_() METHOD
+RefactoringAction 1497033338269 TestBowling.java RENAME test_when_is_()=>void test_when_is_str() METHOD
+RefactoringAction 1497033339278 TestBowling.java RENAME test_when_is_str()=>void test_when_is_strikee() METHOD
+RefactoringAction 1497033341295 TestBowling.java RENAME test_when_is_strikee()=>void test_when_is_strike_i() METHOD
+RefactoringAction 1497033342807 TestBowling.java RENAME test_when_is_strike_i()=>void test_when_is_strike_() METHOD
+RefactoringAction 1497033346817 TestBowling.java RENAME test_when_is_strike_()=>void test_when_is_strike_on() METHOD
+RefactoringAction 1497033347827 TestBowling.java RENAME test_when_is_strike_on()=>void test_when_is_strike_on FIELD
+RefactoringAction 1497033351846 TestBowling.java RENAME test_when_is_strike_on()=>void test_when_is_strike_on_last() METHOD
+RefactoringAction 1497033352855 TestBowling.java RENAME test_when_is_strike_on_last()=>void test_when_is_strike_on_last_() METHOD
+RefactoringAction 1497033354366 TestBowling.java RENAME test_when_is_strike_on_last_()=>void test_when_is_strike_on_last_frame() METHOD
+EditAction 1497033562780 BowlingGame.java 1179 4 5 0
