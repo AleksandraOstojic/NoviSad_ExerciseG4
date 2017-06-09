@@ -172,3 +172,10 @@ UnitTestSessionAction 1497034968108 TestBowling.java OK
 RefactoringAction 1497034976888 TestBowling.java ADD void test_when_is_spare_on_last_frame()/2 METHOD
 RefactoringAction 1497034981900 TestBowling.java RENAME test_when_is_spare_on_last_frame()/2=>void test_game() METHOD
 EditAction 1497035071339 TestBowling.java 3479 12 68 9
+UnitTestCaseAction 1497035088485 TestBowling.java OK
+UnitTestSessionAction 1497035088487 TestBowling.java OK
+RefactoringAction 1497035172152 TestBowling.java RENAME test_game()=>void test_game_() METHOD
+RefactoringAction 1497035175663 TestBowling.java RENAME test_game_()=>void test_game_score() METHOD
+RefactoringAction 1497035248236 TestBowling.java ADD void test_when_is_spare_on_last_frame()/2 METHOD
+RefactoringAction 1497035275788 TestBowling.java RENAME test_when_is_spare_on_last_frame()/2=>void test_game() METHOD
+EditAction 1497035292488 TestBowling.java 4031 13 81 10

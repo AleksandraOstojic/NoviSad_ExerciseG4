@@ -121,7 +121,7 @@ public class TestBowling {
 		
 	}
 	@Test
-	public void test_game() throws BowlingException
+	public void test_game_score() throws BowlingException
 	{
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(10,0));
@@ -132,6 +132,24 @@ public class TestBowling {
 		game.addFrame(new Frame(4,1));
 		
 		assertEquals(42,game.score());
+		
+	}
+	@Test(expected = BowlingException.class)
+	public void test_game() throws BowlingException
+	{
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(3,0));
+		game.addFrame(new Frame(6,0));
+		game.addFrame(new Frame(3,1));
+		game.addFrame(new Frame(5,0));
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(1,4));
+		game.addFrame(new Frame(2,3));
+		game.addFrame(new Frame(1,9));
+		game.addFrame(new Frame(5,5));
+		game.setBonus(3, 5);
+		assertEquals(71,game.score());
 		
 	}
 	
