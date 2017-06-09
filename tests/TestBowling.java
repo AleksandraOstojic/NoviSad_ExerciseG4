@@ -101,5 +101,22 @@ public class TestBowling {
 		game.addFrame(new Frame(10,0));
 		assertEquals(68,game.score());
 	}
+	@Test
+	public void test_when_is_spare_on_last_frame() throws BowlingException
+	{
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(3,0));
+		game.addFrame(new Frame(6,0));
+		game.addFrame(new Frame(3,1));
+		game.addFrame(new Frame(5,0));
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(1,4));
+		game.addFrame(new Frame(2,3));
+		game.addFrame(new Frame(1,9));
+		game.addFrame(new Frame(5,5));
+		assertEquals(68,game.score());
+		
+	}
 
 }

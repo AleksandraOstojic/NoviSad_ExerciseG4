@@ -123,3 +123,17 @@ UnitTestCaseAction 1497033577893 TestBowling.java OK
 UnitTestSessionAction 1497033577895 TestBowling.java OK
 EditAction 1497033773116 BowlingGame.java 1386 4 5 0
 EditAction 1497033787106 TestBowling.java 2565 10 46 7
+UnitTestCaseAction 1497033801502 TestBowling.java OK
+UnitTestSessionAction 1497033801504 TestBowling.java OK
+RefactoringAction 1497033843510 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1497033845533 TestBowling.java RENAME test_=>void test_when FIELD
+RefactoringAction 1497033847549 TestBowling.java RENAME test_when=>void test_when_ FIELD
+RefactoringAction 1497033848558 TestBowling.java RENAME test_when_=>void test_when_is FIELD
+RefactoringAction 1497033856080 TestBowling.java RENAME test_when_is=>void test_when_is_ FIELD
+RefactoringAction 1497033857591 TestBowling.java RENAME test_when_is_=>void test_when_is_on FIELD
+RefactoringAction 1497033860103 TestBowling.java RENAME test_when_is_on=>void test_when_is_spare FIELD
+RefactoringAction 1497033863114 TestBowling.java RENAME test_when_is_spare=>void test_when_is_spare_on FIELD
+RefactoringAction 1497033866626 TestBowling.java RENAME test_when_is_spare_on=>void test_when_is_spare_on_last FIELD
+RefactoringAction 1497033868640 TestBowling.java RENAME test_when_is_spare_on_last=>void test_when_is_spare_on_last_frame FIELD
+RefactoringAction 1497033870655 TestBowling.java RENAME test_when_is_spare_on_last_frame=>void test_when_is_spare_on_last_frame() METHOD
+EditAction 1497033892782 TestBowling.java 3075 11 58 8
