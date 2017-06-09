@@ -71,3 +71,20 @@ UnitTestCaseAction 1497032186092 TestBowling.java FAIL
 UnitTestSessionAction 1497032186094 TestBowling.java FAIL
 EditAction 1497032422947 BowlingGame.java 858 4 4 0
 EditAction 1497032431812 Frame.java 872 6 7 0
+CompilationAction 1497032443919 BowlingGame.java
+UnitTestCaseAction 1497032494967 TestBowling.java FAIL
+UnitTestSessionAction 1497032494969 TestBowling.java FAIL
+UnitTestCaseAction 1497032570808 TestBowling.java FAIL
+UnitTestSessionAction 1497032570809 TestBowling.java FAIL
+CompilationAction 1497032624313 BowlingGame.java
+UnitTestCaseAction 1497032625392 TestBowling.java FAIL
+UnitTestSessionAction 1497032625393 TestBowling.java FAIL
+UnitTestCaseAction 1497032851136 TestBowling.java FAIL
+UnitTestSessionAction 1497032851138 TestBowling.java FAIL
+UnitTestCaseAction 1497032920168 TestBowling.java FAIL
+UnitTestSessionAction 1497032920170 TestBowling.java FAIL
+UnitTestCaseAction 1497032960312 TestBowling.java FAIL
+UnitTestSessionAction 1497032960315 TestBowling.java FAIL
+UnitTestCaseAction 1497032966100 TestBowling.java FAIL
+UnitTestSessionAction 1497032966102 TestBowling.java FAIL
+EditAction 1497033051413 BowlingGame.java 1059 4 5 0
