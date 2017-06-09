@@ -166,3 +166,4 @@ UnitTestSessionAction 1497034796363 TestBowling.java FAIL
 RefactoringAction 1497034820492 BowlingGame.java ADD void add FIELD
 RefactoringAction 1497034823500 BowlingGame.java RENAME add=>void addBonus() METHOD
 EditAction 1497034935384 BowlingGame.java 1430 5 6 0
+EditAction 1497034951888 TestBowling.java 3123 11 60 8
