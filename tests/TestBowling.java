@@ -21,5 +21,11 @@ public class TestBowling {
 	{
 		Frame frame = new Frame(10,2);
 	}
+	
+	@Test(expected = BowlingException.class)
+	public void test_invalid_number_of_pins2() throws BowlingException
+	{
+		Frame frame = new Frame(2,10);
+	}
 
 }
