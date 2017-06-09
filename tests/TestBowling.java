@@ -38,5 +38,12 @@ public class TestBowling {
 		Frame frame = new Frame(6,4);
 		assertTrue(frame.isSpare());
 	}
+	
+	@Test
+	public void test_score_method() throws BowlingException{
+		Frame frame = new Frame(2,3);
+		assertEquals("Neocekivan broj srusenih kegli.", 5, frame.score());
+		
+	}
 
 }

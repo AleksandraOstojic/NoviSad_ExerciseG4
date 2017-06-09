@@ -38,3 +38,9 @@ CompilationAction 1497031579689 TestBowling.java
 UnitTestCaseAction 1497031581138 TestBowling.java FAIL
 UnitTestSessionAction 1497031581139 TestBowling.java FAIL
 EditAction 1497031660527 Frame.java 927 6 6 0
+UnitTestCaseAction 1497031669539 TestBowling.java OK
+UnitTestSessionAction 1497031669541 TestBowling.java OK
+RefactoringAction 1497031683199 TestBowling.java ADD void tes FIELD
+RefactoringAction 1497031687217 TestBowling.java RENAME tes=>void test_sc FIELD
+RefactoringAction 1497031691249 TestBowling.java RENAME test_sc=>void test_score_method() METHOD
+EditAction 1497031788219 TestBowling.java 1077 6 10 4
