@@ -25,3 +25,16 @@ RefactoringAction 1497031360011 TestBowling.java RENAME test_invalid_number_of_p
 EditAction 1497031445051 Frame.java 815 6 6 0
 CompilationAction 1497031453574 TestBowling.java
 EditAction 1497031453782 TestBowling.java 594 3 4 1
+CompilationAction 1497031463846 TestBowling.java
+RefactoringAction 1497031494762 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1497031497774 TestBowling.java RENAME test_=>void test_s FIELD
+RefactoringAction 1497031507289 TestBowling.java RENAME test_s=>void test_strike FIELD
+RefactoringAction 1497031509302 TestBowling.java RENAME test_strike=>void test_strike_ FIELD
+RefactoringAction 1497031510815 TestBowling.java RENAME test_strike_=>void test_strike_method FIELD
+RefactoringAction 1497031511832 TestBowling.java RENAME test_strike_method=>void test_strike_method() METHOD
+RefactoringAction 1497031557488 TestBowling.java ADD void test_strike_method()/2 METHOD
+RefactoringAction 1497031564007 TestBowling.java RENAME test_strike_method()/2=>void test_spare_method() METHOD
+CompilationAction 1497031579689 TestBowling.java
+UnitTestCaseAction 1497031581138 TestBowling.java FAIL
+UnitTestSessionAction 1497031581139 TestBowling.java FAIL
+EditAction 1497031660527 Frame.java 927 6 6 0
